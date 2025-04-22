@@ -40,6 +40,10 @@ const { signup, signin } = require("../src/controllers/authController");
 app.use("/signup", signup);
 app.use("/signin", signin);
 
+const userController = require("../src/controllers/userController");
+app.use("/users", userController);
+
+
 const restaurantsController = require("../src/controllers/restaurantController");
 app.use("/restaurants", restaurantsController);
 
