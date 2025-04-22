@@ -7,7 +7,7 @@ const session = require("express-session");
 const allowedOrigins = [
   "http://127.0.0.1:3000",
   "http://localhost:3000",
-  "https://swiggy-clone-nkp.netlify.app/",
+  "https://swiggy-clone-nkp.netlify.app",
 ];
 
 app.use(
